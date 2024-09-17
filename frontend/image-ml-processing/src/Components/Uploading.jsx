@@ -34,19 +34,21 @@ const Uploading = () => {
     };
 
 
-    return (
-        <div>
+    return (    
+        <div >      
             {/* Navbar */}
             <nav className="bg-purple-800 p-4 text-white">
                 <div className="container mx-auto flex justify-between items-center">
                     <div className="text-3xl font-extrabold">Stride</div>
                     <div className="space-x-10">
                         <a href="/home" className="hover:text-gray-200">Home</a>
+                        <a href="/workflow" className="hover:text-gray-200">Workflow</a>
                         <a href="/features" className="hover:text-gray-200">Features</a>
+                        <a href="/scope" className="hover:text-gray-200">Scope</a>
                         <a href="/about" className="hover:text-gray-200">About</a>
                     </div>
                 </div>
-            </nav>
+            </nav>  
 
             <div className="flex flex-col items-center justify-center p-8 min-h-screen bg-gray-100">
                 <div className="flex space-x-8 mb-8">
